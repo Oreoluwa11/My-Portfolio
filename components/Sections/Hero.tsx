@@ -24,7 +24,7 @@ const Hero = () => {
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <div className="mb-8 slide-up">
-          <div className="w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden ring-purple-bright/20 shadow-glow">
+          <div className="w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden ring-purple-bright/20 shadow-glow mt-10 md:mt-1">
             <Image
               src="/hero.svg"
               alt="Profile Picture"
