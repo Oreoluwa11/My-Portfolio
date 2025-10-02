@@ -23,8 +23,8 @@ const Hero = () => {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,_var(--glow-purple)_0%,_transparent_50%)]" />
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
-        <div className="mb-8 slide-up">
-          <div className="w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden ring-purple-bright/20 shadow-glow">
+        <div className="mb-8 slide-up mt-20 md:mt-1">
+          <div className="w-64 h-64 mx-auto mb-6 rounded-full overflow-hidden ring-purple-bright/20 shadow-glow ">
             <Image
               src="/hero.svg"
               alt="Profile Picture"
