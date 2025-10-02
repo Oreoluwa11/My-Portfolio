@@ -36,7 +36,7 @@ const Hero = () => {
         </div>
         
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 slide-up delay-100">
-          Hi, I'm <span className="text-transparent bg-clip-text bg-[linear-gradient(135deg,hsl(var(--purple-deep)),hsl(var(--purple-bright)))]">Anoba Rahmat</span>
+          Hi, I&apos;m <span className="text-transparent bg-clip-text bg-[linear-gradient(135deg,hsl(var(--purple-deep)),hsl(var(--purple-bright)))]">Anoba Rahmat</span>
         </h1>
         
         <h2 className="text-xl sm:text-2xl lg:text-3xl text-[hsl(0_0%_70%)] mb-8 slide-up delay-200">

@@ -58,7 +58,7 @@ const Contact = () => {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ready to start your next project? Let's discuss how I can help bring
+            Ready to start your next project? Let&apos;s discuss how I can help bring
             your ideas to life.
           </p>
         </div>
@@ -69,7 +69,7 @@ const Contact = () => {
           <div className="slide-up">
             <div className="gradient-card p-8 rounded-2xl h-full">
               <h3 className="text-2xl font-bold text-white mb-8">
-                Let's Connect
+                Let&apos;s Connect
               </h3>
 
               <div className="space-y-6 mb-8">
