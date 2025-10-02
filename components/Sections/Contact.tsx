@@ -43,7 +43,7 @@ const Contact = () => {
   const socialLinks = [
     { icon: Github, label: "GitHub", url: "https://github.com/Oreoluwa11" },
     { icon: Linkedin, label: "LinkedIn", url: "https://www.linkedin.com/in/anoba-rahmat-042833286/" },
-    { icon: Instagram, label: "Instagram", url: "https://wa.me/+2348130297049" },
+    { icon: Instagram, label: "Instagram", url: "https://www.instagram.com/thattechhijabi_?igsh=eHJsZm9leGM2aGpr&utm_source=qr" },
   ]
 
   return (
