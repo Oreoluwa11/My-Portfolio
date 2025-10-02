@@ -34,7 +34,7 @@ export default function RootLayout({
         className={`${inter.variable} ${poppins.variable}`}
       >
         <Header />
-        <main className="flex-1 container mx-auto px-4 py-8">
+        <main className="">
           {children}
         </main>
         <Footer />
