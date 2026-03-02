@@ -10,8 +10,8 @@ const Resume = () => {
       description: "Working on building and maintaining web applications using React, Next.js, and Tailwind CSS. Collaborating with designers and backend developers to create seamless user experiences."
     },
     {
-      degree: "Frontend Development Bootcamp",
-      school: "Axia Africa",
+      title: "Frontend Development Bootcamp",
+      company: "Axia Africa",
       period: "2024 - 2024",
       description: "Intensive 6-month program focusing on modern JavaScript, React, and web development best practices."
     }
