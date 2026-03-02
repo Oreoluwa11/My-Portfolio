@@ -4,23 +4,17 @@ import { Button } from "@/components/ui/button";
 const Resume = () => {
   const experiences = [
     {
-      title: "Junior Frontend Developer",
+      title: "Frontend Developer",
       company: "Fusion Intelligence Technologies",
       period: "May, 2025 - Present",
       description: "Working on building and maintaining web applications using React, Next.js, and Tailwind CSS. Collaborating with designers and backend developers to create seamless user experiences."
     },
     {
-      title: "Assistant Teacher",
-      company: "MarkFavor Schools",
-      period: "January 2022 - July 2022",
-      description: "Assisted in teaching computer science subjects, helped students with coding assignments, and organized extracurricular tech activities."
-    },
-    // {
-    //   title: "Junior Web Developer",
-    //   company: "StartUp Hub",
-    //   period: "2020 - 2021",
-    //   description: "Built and maintained company websites, learned modern web development practices, and contributed to team projects."
-    // }
+      degree: "Frontend Development Bootcamp",
+      school: "Axia Africa",
+      period: "2024 - 2024",
+      description: "Intensive 6-month program focusing on modern JavaScript, React, and web development best practices."
+    }
   ];
 
   const education = [
@@ -30,12 +24,6 @@ const Resume = () => {
       period: "2023 - 2026",
       description: "Pursuing a degree in Computer Science with a focus on software development, algorithms, and data structures."
     },
-    {
-      degree: "Frontend Development Bootcamp",
-      school: "Axia Africa",
-      period: "2024 - 2024",
-      description: "Intensive 6-month program focusing on modern JavaScript, React, and web development best practices."
-    }
   ];
 
   return (
@@ -49,8 +37,8 @@ const Resume = () => {
             My professional journey and educational background
           </p>
           <a
-            href="/Frontend_Developer.pdf"
-            download="Anoba_Rahmat_Frontend_Developer.pdf"
+            href="/Anoba_Rahmat.Resume.pdf"
+            download="Anoba_Rahmat_Frontend_Engineer.pdf"
           >
             <Button className="btn-glow px-6 py-3 rounded-full">
               <Download size={20} className="mr-2" />

@@ -1,53 +1,61 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Mail, MapPin, Phone, Github, Linkedin, Instagram } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { toast } from "sonner" 
+import { useState } from "react";
+import { Mail, MapPin, Phone, Github, Linkedin, Instagram } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { toast } from "sonner";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    message: ""
-  })
+    message: "",
+  });
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
-    })
-  }
+    });
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
+    e.preventDefault();
 
     if (!formData.name || !formData.email || !formData.message) {
-      toast.error("Please fill in all fields")
-      return
+      toast.error("Please fill in all fields");
+      return;
     }
 
     // Simulate success
     toast.success("Message sent!", {
       description: "Thank you for your message. I'll get back to you soon.",
-    })
+    });
 
     // Reset form
-    setFormData({ name: "", email: "", message: "" })
-  }
+    setFormData({ name: "", email: "", message: "" });
+  };
 
   const socialLinks = [
     { icon: Github, label: "GitHub", url: "https://github.com/Oreoluwa11" },
-    { icon: Linkedin, label: "LinkedIn", url: "https://www.linkedin.com/in/anoba-rahmat-042833286/" },
-    { icon: Instagram, label: "Instagram", url: "https://www.instagram.com/thattechhijabi_?igsh=eHJsZm9leGM2aGpr&utm_source=qr" },
-  ]
+    {
+      icon: Linkedin,
+      label: "LinkedIn",
+      url: "https://www.linkedin.com/in/anoba-rahmat-042833286/",
+    },
+    {
+      icon: Instagram,
+      label: "Instagram",
+      url: "https://www.instagram.com/thattechhijabi_?igsh=eHJsZm9leGM2aGpr&utm_source=qr",
+    },
+  ];
 
   return (
-    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-[hsl(266_57%_15%)]">
+    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-black">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16 slide-up">
@@ -58,8 +66,8 @@ const Contact = () => {
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ready to start your next project? Let&apos;s discuss how I can help bring
-            your ideas to life.
+            Ready to start your next project? Let&apos;s discuss how I can help
+            bring your ideas to life.
           </p>
         </div>
 
@@ -75,20 +83,26 @@ const Contact = () => {
               <div className="space-y-6 mb-8">
                 <div className="flex items-center">
                   <Mail className="text-[hsl(271_67%_51%)] mr-4" size={24} />
-                  <div>
+                  <a
+                    href="mailto:rahmatanoba@gmail.com"
+                    className="hover:text-[hsl(271_67%_51%)] transition-colors"
+                  >
                     <p className="font-medium text-white">Email</p>
-                    <a href="mailto:rahmatanoba@gmail.com" className="text-muted-foreground">
-                      rahmatanoba@gmail.com
-                    </a>
-                  </div>
+                    <p className="text-muted-foreground">
+                      rahmatanoba1@gmail.com
+                    </p>
+                  </a>
                 </div>
 
                 <div className="flex items-center">
                   <Phone className="text-[hsl(271_67%_51%)] mr-4" size={24} />
-                  <div>
+                  <a
+                    href="tel:+2348130297049"
+                    className="hover:text-[hsl(271_67%_51%)] transition-colors"
+                  >
                     <p className="font-medium text-white">Phone</p>
-                    <a href="tel:+2348130297049" className="text-muted-foreground">+234 813 029 7049</a>
-                  </div>
+                    <p className="text-muted-foreground">+234 813 029 7049</p>
+                  </a>
                 </div>
 
                 <div className="flex items-center">
@@ -106,7 +120,7 @@ const Contact = () => {
                 </h4>
                 <div className="flex space-x-4">
                   {socialLinks.map((social) => {
-                    const Icon = social.icon
+                    const Icon = social.icon;
                     return (
                       <a
                         key={social.label}
@@ -118,7 +132,7 @@ const Contact = () => {
                       >
                         <Icon size={20} />
                       </a>
-                    )
+                    );
                   })}
                 </div>
               </div>
@@ -182,7 +196,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

@@ -47,7 +47,7 @@ const Navigation = () => {
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection("#hero")}
-              className="text-3xl font-bold text-white hover:text-[hsl(271_67%_51%)] transition-colors"
+              className="text-3xl font-bold text-white"
             >
               Anoba<span className="text-[hsl(271_67%_51%)]">Rahmat</span>
             </button>

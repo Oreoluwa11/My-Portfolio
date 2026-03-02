@@ -13,7 +13,7 @@ export const About = () => {
             
             <div className="space-y-6 text-lg text-muted-foreground">
               <p>
-                I&apos;m a passionate Frontend Developer with over 1 year of experience creating
+                I&apos;m a passionate Frontend Developer with almost 2 year of experience creating
                 exceptional digital experiences. My journey began with curiosity about how 
                 websites work, and it has evolved into a deep love for crafting pixel-perfect, 
                 performant web applications.
@@ -43,7 +43,7 @@ export const About = () => {
                 </div>
                 
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[hsl(271_67%_51%)] mb-2">1+</div>
+                  <div className="text-3xl font-bold text-[hsl(271_67%_51%)] mb-2">1.5+</div>
                   <div className="text-muted-foreground">Years Experience</div>
                 </div>
                 
