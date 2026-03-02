@@ -39,7 +39,7 @@ const Portfolio = () => {
         "An intuitive discovery platform for locating and exploring top-rated restaurants across Lagos, Nigeria.",
       image:"/xplore.jpeg",
       technologies: ["React", "JavaScript", "Tailwind CSS", "APIs"],
-      liveUrl: "#",
+      liveUrl: "https://xplore-app-eta.vercel.app/",
       githubUrl: "https://github.com/Oreoluwa11/Xplore-app",
     },
     {
