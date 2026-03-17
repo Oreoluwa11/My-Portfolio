@@ -37,7 +37,7 @@ const Resume = () => {
             My professional journey and educational background
           </p>
           <a
-            href="/Anoba_Rahmat.Resume.pdf"
+            href="/Anoba_Rahmat_Frontend_Engineer.pdf"
             download="Anoba_Rahmat_Frontend_Engineer.pdf"
           >
             <Button className="btn-glow px-6 py-3 rounded-full">
