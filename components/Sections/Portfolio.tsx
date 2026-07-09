@@ -13,21 +13,22 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: "Portfolio Website",
+      title: "LASU Alumni App",
       description:
-        "A modern, highly responsive personal portfolio featuring smooth animations and a premium UI design.",
-      image:"/portfolio.jpeg",
-      technologies: ["React", "TypeScript", "Tailwind CSS"],
-      liveUrl: "https://anoba-rahmat.netlify.app/",
-      githubUrl: "https://github.com/Oreoluwa11/My-Portfolio",
+        "A web application designed to connect and engage alumni of Lagos State University, providing a platform for networking, events, and community building.",
+      image:"/lasu-alumni.png",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Prisma", "PostgreSQL"],
+      liveUrl: "https://lasu-alumni.vercel.app/",
+      githubUrl: "https://github.com/Oreoluwa11/Lasu-Alumni",
     },
+    
     {
       id: 2,
       title: "Bizflow",
       description:
         "A comprehensive financial management and budget planning tool designed to streamline personal finances.",
       image:"/bizflow.jpeg",
-      technologies: ["React", "Typescript", "Tailwind CSS"],
+      technologies: ["React", "Typescript", "Tailwind CSS", "Next.js", "GutHub"],
       liveUrl: "https://bizflow-gray.vercel.app",
       githubUrl: "https://github.com/Oreoluwa11/bizflow",
     },
@@ -38,12 +39,22 @@ const Portfolio = () => {
       description:
         "An intuitive discovery platform for locating and exploring top-rated restaurants across Lagos, Nigeria.",
       image:"/xplore.jpeg",
-      technologies: ["React", "JavaScript", "Tailwind CSS", "APIs"],
+      technologies: ["React", "JavaScript", "Tailwind CSS", "APIs", "Next.js"],
       liveUrl: "https://xplore-app-eta.vercel.app/",
       githubUrl: "https://github.com/Oreoluwa11/Xplore-app",
     },
     {
       id: 4,
+      title: "Portfolio Website",
+      description:
+        "A modern, highly responsive personal portfolio featuring smooth animations and a premium UI design.",
+      image:"/portfolio.jpeg",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Next.js"],
+      liveUrl: "https://anoba-rahmat.netlify.app/",
+      githubUrl: "https://github.com/Oreoluwa11/My-Portfolio",
+    },
+    {
+      id: 5,
       title: "Foodi Restaurant App",
       description:
         "An immersive dining application offering detailed restaurant insights, interactive menus, and seamless user experiences.",

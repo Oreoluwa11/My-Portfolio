@@ -1,2 +1,26 @@
-[00:00:03.196] Server  LOG     ✓ Ready in 2.8s
-[00:00:13.120] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.797] Server  LOG     ✓ Ready in 3.8s
+[00:00:18.328] Server  LOG     ○ Compiling / ...
+[00:00:26.742] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:00.695] Browser ERROR   ./components/Sections/Portfolio.tsx:26:11
+Parsing ecmascript source code failed
+  24 |     
+  25 |     {
+> 26 |       id: ,
+     |           ^
+  27 |       title: "Bizflow",
+  28 |       description:
+  29 |         "A comprehensive financial management and budget planning tool designed to streamline personal finances.",
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/Sections/Portfolio.tsx
+    ./app/page.tsx
+[00:02:02.700] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[00:02:06.708] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[00:03:29.281] Server  LOG     ✓ Compiled in 158ms
+[00:04:37.238] Server  ERROR   ⨯ ReferenceError: g is not defined
+[00:04:37.704] Browser ERROR   uncaughtError: ReferenceError: g is not defined
+[00:04:39.565] Server  LOG     ✓ Compiled in 106ms
+[00:04:41.483] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

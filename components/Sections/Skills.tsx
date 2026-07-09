@@ -18,8 +18,8 @@ const Skills = () => {
     { name: "React", icon: Layers, level: 94 },
     { name: "Next.js", icon: Globe, level: 85 },
     { name: "Tailwind CSS", icon: Palette, level: 96 },
-    { name: "GitHub", icon: GitBranch, level: 90 },
-    { name: "Responsive Design", icon: Smartphone, level: 75 },
+    { name: "Redux Toolkit", icon: GitBranch, level: 80 },
+    { name: "Responsive Design", icon: Smartphone, level: 90 },
     { name: "API Integration", icon: Database, level: 70 },
   ];
 

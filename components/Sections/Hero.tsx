@@ -45,7 +45,7 @@ const Hero = () => {
         </h1>
 
         <h2 className="text-xl sm:text-2xl lg:text-3xl text-[hsl(0_0%_70%)] mb-8 slide-up delay-200">
-          Frontend Developer
+          Frontend Engineer | Web Developer
         </h2>
 
         <p className="text-lg text-[hsl(0_0%_70%)] max-w-2xl mx-auto mb-12 slide-up delay-300">

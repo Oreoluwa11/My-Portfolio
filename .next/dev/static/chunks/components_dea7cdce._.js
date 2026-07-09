@@ -93,7 +93,7 @@ const Hero = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "text-xl sm:text-2xl lg:text-3xl text-[hsl(0_0%_70%)] mb-8 slide-up delay-200",
-                        children: "Frontend Developer"
+                        children: "Frontend Engineer | Web Developer"
                     }, void 0, false, {
                         fileName: "[project]/components/Sections/Hero.tsx",
                         lineNumber: 47,

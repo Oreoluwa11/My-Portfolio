@@ -90,7 +90,7 @@ const About = ()=>{
                                 className: "space-y-6 text-lg text-muted-foreground",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "I'm a passionate Frontend Developer with almost 2 year of experience creating exceptional digital experiences. My journey began with curiosity about how websites work, and it has evolved into a deep love for crafting pixel-perfect, performant web applications."
+                                        children: "I'm a passionate Frontend Developer with almost 3 years of experience creating exceptional digital experiences. My journey began with curiosity about how websites work, and it has evolved into a deep love for crafting pixel-perfect, performant web applications."
                                     }, void 0, false, {
                                         fileName: "[project]/components/Sections/About.tsx",
                                         lineNumber: 15,
@@ -159,7 +159,7 @@ const About = ()=>{
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "text-3xl font-bold text-[hsl(271_67%_51%)] mb-2",
-                                                children: "1.5+"
+                                                children: "3+"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Sections/About.tsx",
                                                 lineNumber: 46,
@@ -320,14 +320,14 @@ const Skills = ()=>{
             level: 96
         },
         {
-            name: "GitHub",
+            name: "Redux Toolkit",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$git$2d$branch$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__GitBranch$3e$__["GitBranch"],
-            level: 90
+            level: 80
         },
         {
             name: "Responsive Design",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$smartphone$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Smartphone$3e$__["Smartphone"],
-            level: 75
+            level: 90
         },
         {
             name: "API Integration",
@@ -630,16 +630,19 @@ const Portfolio = ()=>{
     const projects = [
         {
             id: 1,
-            title: "Portfolio Website",
-            description: "A modern, highly responsive personal portfolio featuring smooth animations and a premium UI design.",
-            image: "/portfolio.jpeg",
+            title: "LASU Alumni App",
+            description: "A web application designed to connect and engage alumni of Lagos State University, providing a platform for networking, events, and community building.",
+            image: "/lasu-alumni.png",
             technologies: [
                 "React",
                 "TypeScript",
-                "Tailwind CSS"
+                "Tailwind CSS",
+                "Next.js",
+                "Prisma",
+                "PostgreSQL"
             ],
-            liveUrl: "https://anoba-rahmat.netlify.app/",
-            githubUrl: "https://github.com/Oreoluwa11/My-Portfolio"
+            liveUrl: "https://lasu-alumni.vercel.app/",
+            githubUrl: "https://github.com/Oreoluwa11/Lasu-Alumni"
         },
         {
             id: 2,
@@ -649,7 +652,9 @@ const Portfolio = ()=>{
             technologies: [
                 "React",
                 "Typescript",
-                "Tailwind CSS"
+                "Tailwind CSS",
+                "Next.js",
+                "GutHub"
             ],
             liveUrl: "https://bizflow-gray.vercel.app",
             githubUrl: "https://github.com/Oreoluwa11/bizflow"
@@ -663,13 +668,28 @@ const Portfolio = ()=>{
                 "React",
                 "JavaScript",
                 "Tailwind CSS",
-                "APIs"
+                "APIs",
+                "Next.js"
             ],
             liveUrl: "https://xplore-app-eta.vercel.app/",
             githubUrl: "https://github.com/Oreoluwa11/Xplore-app"
         },
         {
             id: 4,
+            title: "Portfolio Website",
+            description: "A modern, highly responsive personal portfolio featuring smooth animations and a premium UI design.",
+            image: "/portfolio.jpeg",
+            technologies: [
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "Next.js"
+            ],
+            liveUrl: "https://anoba-rahmat.netlify.app/",
+            githubUrl: "https://github.com/Oreoluwa11/My-Portfolio"
+        },
+        {
+            id: 5,
             title: "Foodi Restaurant App",
             description: "An immersive dining application offering detailed restaurant insights, interactive menus, and seamless user experiences.",
             image: "/foodi.jpeg",
@@ -701,13 +721,13 @@ const Portfolio = ()=>{
                                     children: "Portfolio"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Sections/Portfolio.tsx",
-                                    lineNumber: 84,
+                                    lineNumber: 95,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Sections/Portfolio.tsx",
-                            lineNumber: 82,
+                            lineNumber: 93,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -715,13 +735,13 @@ const Portfolio = ()=>{
                             children: "A showcase of my recent projects and technical achievements"
                         }, void 0, false, {
                             fileName: "[project]/components/Sections/Portfolio.tsx",
-                            lineNumber: 88,
+                            lineNumber: 99,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Sections/Portfolio.tsx",
-                    lineNumber: 81,
+                    lineNumber: 92,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$carousel$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Carousel"], {
@@ -749,7 +769,7 @@ const Portfolio = ()=>{
                                                         height: 300
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                        lineNumber: 110,
+                                                        lineNumber: 121,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -774,19 +794,19 @@ const Portfolio = ()=>{
                                                                                     className: "mr-1"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                                                    lineNumber: 131,
+                                                                                    lineNumber: 142,
                                                                                     columnNumber: 31
                                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                                 "Live Demo"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                                            lineNumber: 126,
+                                                                            lineNumber: 137,
                                                                             columnNumber: 29
                                                                         }, ("TURBOPACK compile-time value", void 0))
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                                        lineNumber: 120,
+                                                                        lineNumber: 131,
                                                                         columnNumber: 27
                                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
@@ -804,41 +824,41 @@ const Portfolio = ()=>{
                                                                                     className: "mr-1"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                                                    lineNumber: 146,
+                                                                                    lineNumber: 157,
                                                                                     columnNumber: 31
                                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                                 "Code"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                                            lineNumber: 141,
+                                                                            lineNumber: 152,
                                                                             columnNumber: 29
                                                                         }, ("TURBOPACK compile-time value", void 0))
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                                        lineNumber: 135,
+                                                                        lineNumber: 146,
                                                                         columnNumber: 27
                                                                     }, ("TURBOPACK compile-time value", void 0))
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                                lineNumber: 119,
+                                                                lineNumber: 130,
                                                                 columnNumber: 25
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                            lineNumber: 118,
+                                                            lineNumber: 129,
                                                             columnNumber: 23
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                        lineNumber: 117,
+                                                        lineNumber: 128,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                lineNumber: 109,
+                                                lineNumber: 120,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -849,7 +869,7 @@ const Portfolio = ()=>{
                                                         children: project.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                        lineNumber: 156,
+                                                        lineNumber: 167,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -857,7 +877,7 @@ const Portfolio = ()=>{
                                                         children: project.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                        lineNumber: 159,
+                                                        lineNumber: 170,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -867,65 +887,65 @@ const Portfolio = ()=>{
                                                                 children: tech
                                                             }, tech, false, {
                                                                 fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                                lineNumber: 164,
+                                                                lineNumber: 175,
                                                                 columnNumber: 25
                                                             }, ("TURBOPACK compile-time value", void 0)))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                        lineNumber: 162,
+                                                        lineNumber: 173,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Sections/Portfolio.tsx",
-                                                lineNumber: 155,
+                                                lineNumber: 166,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Sections/Portfolio.tsx",
-                                        lineNumber: 106,
+                                        lineNumber: 117,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, project.id, false, {
                                     fileName: "[project]/components/Sections/Portfolio.tsx",
-                                    lineNumber: 102,
+                                    lineNumber: 113,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)))
                         }, void 0, false, {
                             fileName: "[project]/components/Sections/Portfolio.tsx",
-                            lineNumber: 100,
+                            lineNumber: 111,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$carousel$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CarouselPrevious"], {
                             className: "hidden md:flex -left-12 bg-card/80 backdrop-blur-sm border-border/50 hover:bg-card"
                         }, void 0, false, {
                             fileName: "[project]/components/Sections/Portfolio.tsx",
-                            lineNumber: 177,
+                            lineNumber: 188,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$carousel$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CarouselNext"], {
                             className: "hidden md:flex -right-12 bg-card/80 backdrop-blur-sm border-border/50 hover:bg-card"
                         }, void 0, false, {
                             fileName: "[project]/components/Sections/Portfolio.tsx",
-                            lineNumber: 178,
+                            lineNumber: 189,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Sections/Portfolio.tsx",
-                    lineNumber: 93,
+                    lineNumber: 104,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/components/Sections/Portfolio.tsx",
-            lineNumber: 80,
+            lineNumber: 91,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/components/Sections/Portfolio.tsx",
-        lineNumber: 76,
+        lineNumber: 87,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -1105,8 +1125,14 @@ const Resume = ()=>{
         {
             title: "Frontend Developer",
             company: "Fusion Intelligence Technologies",
-            period: "May, 2025 - Present",
+            period: "January, 2025 - Present",
             description: "Working on building and maintaining web applications using React, Next.js, and Tailwind CSS. Collaborating with designers and backend developers to create seamless user experiences."
+        },
+        {
+            title: "Frontend Developer Tutor",
+            company: "Aishah Schools",
+            period: "May, 2026 - Present",
+            description: "Teach frontend web development concepts including HTML, CSS, and JavaScript to children and teenagers. Simplify technical concepts and encourage problem-solving through practical exercises."
         },
         {
             title: "Frontend Development Bootcamp",
@@ -1141,13 +1167,13 @@ const Resume = ()=>{
                                     children: "Resume"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Sections/Resume.tsx",
-                                    lineNumber: 34,
+                                    lineNumber: 40,
                                     columnNumber: 16
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Sections/Resume.tsx",
-                            lineNumber: 33,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1155,7 +1181,7 @@ const Resume = ()=>{
                             children: "My professional journey and educational background"
                         }, void 0, false, {
                             fileName: "[project]/components/Sections/Resume.tsx",
-                            lineNumber: 36,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1169,25 +1195,25 @@ const Resume = ()=>{
                                         className: "mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Sections/Resume.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 50,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     "Download CV"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Sections/Resume.tsx",
-                                lineNumber: 43,
+                                lineNumber: 49,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/components/Sections/Resume.tsx",
-                            lineNumber: 39,
+                            lineNumber: 45,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Sections/Resume.tsx",
-                    lineNumber: 32,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1204,7 +1230,7 @@ const Resume = ()=>{
                                             size: 28
                                         }, void 0, false, {
                                             fileName: "[project]/components/Sections/Resume.tsx",
-                                            lineNumber: 54,
+                                            lineNumber: 60,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1212,13 +1238,13 @@ const Resume = ()=>{
                                             children: "Work Experience"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Sections/Resume.tsx",
-                                            lineNumber: 55,
+                                            lineNumber: 61,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Sections/Resume.tsx",
-                                    lineNumber: 53,
+                                    lineNumber: 59,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1237,7 +1263,7 @@ const Resume = ()=>{
                                                                     children: exp.title
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Sections/Resume.tsx",
-                                                                    lineNumber: 63,
+                                                                    lineNumber: 69,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1245,13 +1271,13 @@ const Resume = ()=>{
                                                                     children: exp.period
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Sections/Resume.tsx",
-                                                                    lineNumber: 64,
+                                                                    lineNumber: 70,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Sections/Resume.tsx",
-                                                            lineNumber: 62,
+                                                            lineNumber: 68,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1259,7 +1285,7 @@ const Resume = ()=>{
                                                             children: exp.company
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Sections/Resume.tsx",
-                                                            lineNumber: 66,
+                                                            lineNumber: 72,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1267,37 +1293,37 @@ const Resume = ()=>{
                                                             children: exp.description
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Sections/Resume.tsx",
-                                                            lineNumber: 67,
+                                                            lineNumber: 73,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Sections/Resume.tsx",
-                                                    lineNumber: 61,
+                                                    lineNumber: 67,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 index < experiences.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "absolute left-6 top-full w-px h-8 bg-gradient-to-b from-[hsl(271_67%_51%)] to-transparent"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Sections/Resume.tsx",
-                                                    lineNumber: 71,
+                                                    lineNumber: 77,
                                                     columnNumber: 21
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/Sections/Resume.tsx",
-                                            lineNumber: 60,
+                                            lineNumber: 66,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Sections/Resume.tsx",
-                                    lineNumber: 58,
+                                    lineNumber: 64,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Sections/Resume.tsx",
-                            lineNumber: 52,
+                            lineNumber: 58,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1311,7 +1337,7 @@ const Resume = ()=>{
                                             size: 28
                                         }, void 0, false, {
                                             fileName: "[project]/components/Sections/Resume.tsx",
-                                            lineNumber: 81,
+                                            lineNumber: 87,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1319,13 +1345,13 @@ const Resume = ()=>{
                                             children: "Education"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Sections/Resume.tsx",
-                                            lineNumber: 82,
+                                            lineNumber: 88,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Sections/Resume.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 86,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1344,7 +1370,7 @@ const Resume = ()=>{
                                                                     children: edu.degree
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Sections/Resume.tsx",
-                                                                    lineNumber: 90,
+                                                                    lineNumber: 96,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1352,13 +1378,13 @@ const Resume = ()=>{
                                                                     children: edu.period
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Sections/Resume.tsx",
-                                                                    lineNumber: 91,
+                                                                    lineNumber: 97,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Sections/Resume.tsx",
-                                                            lineNumber: 89,
+                                                            lineNumber: 95,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1366,7 +1392,7 @@ const Resume = ()=>{
                                                             children: edu.school
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Sections/Resume.tsx",
-                                                            lineNumber: 93,
+                                                            lineNumber: 99,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1374,54 +1400,54 @@ const Resume = ()=>{
                                                             children: edu.description
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Sections/Resume.tsx",
-                                                            lineNumber: 94,
+                                                            lineNumber: 100,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Sections/Resume.tsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 94,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 index < education.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "absolute left-6 top-full w-px h-8 bg-gradient-to-b from-[hsl(271_67%_51%)] to-transparent"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Sections/Resume.tsx",
-                                                    lineNumber: 98,
+                                                    lineNumber: 104,
                                                     columnNumber: 21
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/Sections/Resume.tsx",
-                                            lineNumber: 87,
+                                            lineNumber: 93,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Sections/Resume.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 91,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Sections/Resume.tsx",
-                            lineNumber: 79,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Sections/Resume.tsx",
-                    lineNumber: 50,
+                    lineNumber: 56,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/components/Sections/Resume.tsx",
-            lineNumber: 31,
+            lineNumber: 37,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/components/Sections/Resume.tsx",
-        lineNumber: 30,
+        lineNumber: 36,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

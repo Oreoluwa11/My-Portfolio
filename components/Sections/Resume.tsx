@@ -6,8 +6,14 @@ const Resume = () => {
     {
       title: "Frontend Developer",
       company: "Fusion Intelligence Technologies",
-      period: "May, 2025 - Present",
+      period: "January, 2025 - Present",
       description: "Working on building and maintaining web applications using React, Next.js, and Tailwind CSS. Collaborating with designers and backend developers to create seamless user experiences."
+    },
+    {
+      title: "Frontend Developer Tutor",
+      company: "Aishah Schools",
+      period: "May, 2026 - Present",
+      description: "Teach frontend web development concepts including HTML, CSS, and JavaScript to children and teenagers. Simplify technical concepts and encourage problem-solving through practical exercises."
     },
     {
       title: "Frontend Development Bootcamp",
