@@ -18,13 +18,13 @@ const Skills = () => {
     { name: "React", icon: Layers, level: 94 },
     { name: "Next.js", icon: Globe, level: 85 },
     { name: "Tailwind CSS", icon: Palette, level: 96 },
-    { name: "GitHub", icon: GitBranch, level: 90 },
-    { name: "Responsive Design", icon: Smartphone, level: 75 },
-    { name: "API Integration", icon: Database, level: 66 },
+    { name: "Redux Toolkit", icon: GitBranch, level: 80 },
+    { name: "Responsive Design", icon: Smartphone, level: 90 },
+    { name: "API Integration", icon: Database, level: 70 },
   ];
 
   return (
-    <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8 bg-[hsl(266_57%_15%)]">
+    <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8 bg-black">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16 slide-up">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">

@@ -20,8 +20,10 @@ const poppins = Poppins({
 export const metadata = {
   title: "Rahmat | Portfolio",
   description: "By Rahmat",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
-
 
 export default function RootLayout({
   children,
@@ -30,13 +32,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.variable} ${poppins.variable}`}
-      >
+      <body className={`${inter.variable} ${poppins.variable}`}>
         <Header />
-        <main className="">
-          {children}
-        </main>
+        <main className="">{children}</main>
         <Footer />
       </body>
     </html>
